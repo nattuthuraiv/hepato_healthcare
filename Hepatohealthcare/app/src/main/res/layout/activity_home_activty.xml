@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/knowyourliver"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:textAlignment="center"
+    android:visibility="visible"
+    tools:context=".HomeActivty">
+
+    <ImageView
+        android:id="@+id/know_your_liver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginTop="1dp"
+        android:background="#6A2222"
+        android:contentDescription="know_your_liver"
+        android:scaleType="fitStart"
+        android:src="@drawable/liver" />
+
+    <TextView
+        android:id="@+id/Livertext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Know Your Liver"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="48sp"
+        android:textStyle="normal|bold|italic"
+        tools:text="Know Your Liver" />
+
+    <Button
+        android:id="@+id/Health_care"
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:layout_below="@id/Livertext"
+        android:layout_marginTop="231dp"
+        android:fontFamily="serif-monospace"
+        android:text="Health Care"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Find_your_doc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Health_care"
+        android:layout_marginTop="28dp"
+        android:capitalize="none"
+        android:fontFamily="serif-monospace"
+        android:text="Find Your Doctor"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/quiz"
+
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@id/Find_your_doc"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="0dp"
+        android:fontFamily="serif-monospace"
+        android:layoutDirection="ltr"
+        android:text="Quiz"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
